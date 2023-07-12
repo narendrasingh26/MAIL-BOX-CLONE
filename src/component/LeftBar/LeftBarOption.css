@@ -1,0 +1,41 @@
+.left_option{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0px 25px;
+    margin-right: 20px;
+}
+.left_option svg{
+    font-size: 20px;
+    width: 20px;
+    color: rgb(94,94,94);
+}
+.left_option h4{
+    font-size: 14px;
+    flex: 1;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.left_option p{
+    opacity: 0;
+    font-size: 12px;
+    color: rgb(94,94,94);
+}
+
+.left_option:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.leftbaroptions--active{
+    background-color: #fce8e6;
+}
+
+.leftbaroptions--active h4,.leftbaroptions--active p,.leftbaroptions--active svg{
+    color: #d93025;
+    font-weight: bold;
+    opacity: 1;
+}
